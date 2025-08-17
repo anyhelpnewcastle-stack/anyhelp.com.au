@@ -1,0 +1,32 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Hero illustration">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="blur" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <rect width="640" height="480" fill="none"/>
+  <!-- Screen -->
+  <rect x="40" y="60" width="360" height="220" rx="16" fill="url(#g1)" opacity="0.25"/>
+  <rect x="48" y="68" width="344" height="196" rx="12" fill="none" stroke="#7dd3fc" opacity="0.7"/>
+  <rect x="160" y="288" width="120" height="14" rx="7" fill="#475569"/>
+  <!-- Speaker -->
+  <rect x="460" y="160" width="140" height="90" rx="10" fill="url(#g1)" opacity=".25"/>
+  <circle cx="500" cy="205" r="26" fill="none" stroke="#c4b5fd" opacity=".8"/>
+  <circle cx="560" cy="205" r="18" fill="none" stroke="#93c5fd" opacity=".8"/>
+  <!-- Dishwasher -->
+  <rect x="110" y="330" width="140" height="120" rx="12" fill="url(#g1)" opacity=".15"/>
+  <rect x="118" y="338" width="124" height="100" rx="10" fill="none" stroke="#a78bfa" opacity=".5"/>
+  <circle cx="180" cy="388" r="26" fill="none" stroke="#a78bfa" opacity=".7"/>
+  <!-- PC Tower -->
+  <rect x="300" y="330" width="90" height="120" rx="10" fill="url(#g1)" opacity=".15"/>
+  <circle cx="340" cy="360" r="6" fill="#7dd3fc"/>
+  <rect x="320" y="380" width="50" height="6" rx="3" fill="#94a3b8"/>
+  <rect x="320" y="396" width="50" height="6" rx="3" fill="#94a3b8"/>
+  <!-- Soft glow -->
+  <ellipse cx="320" cy="440" rx="240" ry="18" fill="#000" opacity=".35" filter="url(#blur)"/>
+</svg>
